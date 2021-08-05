@@ -4,3 +4,6 @@
 . conda install jupyter
 . conda install scipy
 . pip install tensorflow-gpu
+
+### SSH connections hanging from WSL2
+ifconfig eth0 mtu 1400
